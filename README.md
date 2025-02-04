@@ -1,3 +1,20 @@
+# Aether3D 
+**From Words to Worlds**  
+A declarative language for AI-powered 3D scene generation.
+
+## Quick Start
+```aether3d
+3DScene {
+  Camera { position: (0,5,10) }
+  Object Cube {
+    shape: Box(size=1),
+    material: { color: #FF0000 },
+    animation: rotateY(360deg) duration 5s
+  }
+}
+
+
+
 “让3D创作民主化，成为连接自然语言、AI与三维世界的桥梁”，这句话讲得非常好，帮我给这个项目取个名字吧，我们要着手开始了
 
 好的，用户让我帮忙给他们的项目取个名字，这个项目的目标是“让3D创作民主化，成为连接自然语言、AI与三维世界的桥梁”。首先，我需要理解项目的核心价值和目标。用户希望简化3D创作流程，让非专业人士也能通过自然语言或AI生成3D内容，类似于Mermaid在2D图表中的作用，但扩展到3D，并且支持动态和交互。
