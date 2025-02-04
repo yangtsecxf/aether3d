@@ -1,0 +1,19 @@
+# 仓库结构规范
+repos:
+  - name: aether3d-parser
+    template: https://github.com/github-community/opencore-template
+    features:
+      - MIT License
+      - CODEOWNERS预设
+      - Issue模板（Bug/Feature Request）
+  
+  - name: aether3d-docs
+    settings:
+      - 启用GitHub Pages（分支gh-pages）
+      - 集成ReadTheDocs
+
+# 自动化配置（.github/workflows目录下）
+workflows:
+  - 代码格式化检查（Prettier + ESLint）
+  - 安全扫描（CodeQL + Dependabot）
+  - 自动化测试（Jest + Puppeteer）
